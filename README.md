@@ -6,4 +6,4 @@
 
 ####Purely Front-End oriented.
 
-####Useful for a custom site where a framework such as Bootstrap or Materialize is not desired.
+####The features are useful for a custom site where a framework such as Bootstrap or Materialize is not desired and where only one page is desired.
