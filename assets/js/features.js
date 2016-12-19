@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 600, 'swing', function () {
+	    }, 500, 'swing', function () {
 	        window.location.hash = target;
 	    });
 	});
@@ -46,7 +46,7 @@ $(document).ready(function(){
     } // this for loop fills the aArray with attribute href values
 
     $(window).scroll(function(){
-        var windowPos = $(window).scrollTop() + 50; // "50px" is to offset for the fixed top nav
+        var windowPos = $(window).scrollTop() + 5; // Adds class at the end of the section
         var windowHeight = $(window).height(); // get the height of the window
         var docHeight = $(document).height();
 
